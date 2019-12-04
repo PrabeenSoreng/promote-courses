@@ -6,8 +6,8 @@
     <section class="landing-header">
       <div class="landing-header-image"></div>
       <div class="landing-header-content">
-        <h1 class="header-1">Super Amazing Promo</h1>
-        <h3 class="header-3">Super Amazing Promo Subtitle</h3>
+        <h1 class="landing-header-title">Super Amazing Promo</h1>
+        <h3 class="landing-header-subtitle">Super Amazing Promo Subtitle</h3>
         <button class="btn btn-primary">Learn More!</button>
       </div>
     </section>
@@ -32,6 +32,17 @@
         </div>
       </div>
     </section>
+    <section class="featured-articles">
+      <h1 class="header-1">Featured Articles</h1>
+      <div class="card">
+        <h1 class="header-2">Title</h1>
+        <p class="header-3">Subtitle</p>
+        <p class="header-4">Description</p>
+        <div class="card-action">
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -43,6 +54,14 @@ export default {};
 .landing-header {
   width: 100%;
   height: 350px;
+  &-title {
+    font-size: 2.8rem;
+    padding: 1rem 0;
+  }
+  &-subtitle {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+  }
   &-image {
     width: 100%;
     height: 100%;
