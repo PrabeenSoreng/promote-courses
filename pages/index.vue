@@ -1,16 +1,37 @@
 <template>
   <div class="container">
     <header class="header">
-      <h1>Header</h1>
+      <h1 class="header-1">Header</h1>
     </header>
-    <div class="landing-header">
+    <section class="landing-header">
       <div class="landing-header-image"></div>
       <div class="landing-header-content">
         <h1 class="header-1">Super Amazing Promo</h1>
         <h3 class="header-3">Super Amazing Promo Subtitle</h3>
         <button class="btn btn-primary">Learn More!</button>
       </div>
-    </div>
+    </section>
+    <section class="featured-course">
+      <h1 class="header-1">Featured Courses</h1>
+      <div class="content">
+        <div class="card">
+          <div class="card-img">
+            <img src="../static/thomas-tastet.jpg" alt="Course Img" />
+          </div>
+          <h1 class="header-2">Title</h1>
+          <p class="header-3">Subtitle</p>
+          <p class="header-4">Description</p>
+          <p class="price">
+            Price:
+            <strong>$19.90</strong>
+          </p>
+          <div class="card-action">
+            <a href="#">Learn More</a>
+            <a href="#">Enroll</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
