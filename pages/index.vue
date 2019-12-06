@@ -1,8 +1,5 @@
 <template>
   <div class="container">
-    <header class="header">
-      <h1 class="header-1">Header</h1>
-    </header>
     <section class="landing-header">
       <div class="landing-header-image"></div>
       <div class="landing-header-content">
@@ -12,42 +9,24 @@
       </div>
     </section>
     <section class="featured-course">
-      <h1 class="header-1">Featured Courses</h1>
-      <div class="content">
-        <div class="card">
-          <div class="card-img">
-            <img src="../static/thomas-tastet.jpg" alt="Course Img" />
-          </div>
-          <h1 class="header-2">Title</h1>
-          <p class="header-3">Subtitle</p>
-          <p class="header-4">Description</p>
-          <p class="price">
-            Price:
-            <strong>$19.90</strong>
-          </p>
-          <div class="card-action">
-            <a href="#">Learn More</a>
-            <a href="#">Enroll</a>
-          </div>
-        </div>
-      </div>
+      <Courses />
     </section>
     <section class="featured-articles">
-      <h1 class="header-1">Featured Articles</h1>
-      <div class="card">
-        <h1 class="header-2">Title</h1>
-        <p class="header-3">Subtitle</p>
-        <p class="header-4">Description</p>
-        <div class="card-action">
-          <a href="#">Read More</a>
-        </div>
-      </div>
+      <Articles />
     </section>
   </div>
 </template>
 
 <script>
-export default {};
+import Courses from "~/components/Courses.vue";
+import Articles from "~/components/Articles.vue";
+
+export default {
+  components: {
+    Courses,
+    Articles
+  }
+};
 </script>
 
 <style lang="scss">
