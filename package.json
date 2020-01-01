@@ -24,7 +24,9 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.8.3",
     "nuxt": "^2.0.0",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt-fontawesome": "^0.4.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "node-sass": "^4.13.0",
